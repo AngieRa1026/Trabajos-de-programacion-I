@@ -15,22 +15,26 @@ public class MenuInteractivo {
         int opcion = scanner.nextInt();
 
         System.out.println("Ingrese el primer número: ");
-        int a = scanner.nextInt();
+        int num1 = scanner.nextInt();
         System.out.println("Ingrese el segundo número: ");
-        int b = scanner.nextInt();
+        int num2 = scanner.nextInt();
 
         switch (opcion) {
             case 1:
-                System.out.println("La suma es " + (a + b));
+                System.out.println("La suma es " + (num1 + num2));
                 break;
             case 2:
-                System.out.println("La resta es " + (a - b));
+                System.out.println("La resta es " + (num1 - num2));
                 break;
             case 3:
-                System.out.println("La multiplicación es " + (a * b));
+                System.out.println("La multiplicación es " + (num1 * num2));
                 break;
             case 4:
-                System.out.println("La división es " + (a / b));
+                if (num2 != 0) {
+                    System.out.println("La división es " + (num1 / num2));
+                } else {
+                    System.out.println("No se puede dividir por cero");
+                }
                 break;
             case 5:
                 System.out.println("Saliendo...");
@@ -39,6 +43,5 @@ public class MenuInteractivo {
                 System.out.println("Opción no válida");
                 break;
         }
-        
     }
 }
