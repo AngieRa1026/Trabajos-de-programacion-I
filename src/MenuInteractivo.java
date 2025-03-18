@@ -13,6 +13,7 @@ public class MenuInteractivo {
 
         System.out.println("Ingrese una opción: ");
         int opcion = scanner.nextInt();
+        scanner.close();
 
         System.out.println("Ingrese el primer número: ");
         int num1 = scanner.nextInt();

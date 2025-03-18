@@ -7,6 +7,7 @@ public class OperacionesAritmeticas {
         int numero1 = scanner.nextInt();
         System.out.print("Ingrese el segundo número: ");
         int numero2 = scanner.nextInt();
+        scanner.close();
 
         int suma = numero1 + numero2;
         int resta = numero1 - numero2;
@@ -19,5 +20,6 @@ public class OperacionesAritmeticas {
         System.out.println("Multiplicación: " + multiplicacion);
         System.out.println("División: " + division);
         System.out.println("Módulo: " + modulo);
+        scanner.close();
     }
 }
