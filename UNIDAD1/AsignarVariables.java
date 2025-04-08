@@ -1,4 +1,6 @@
+
 public class AsignarVariables {
+
     public static void main(String[] args) {
         // declaracion de variables con buenas practicas de nombrados
         byte numStudentCount = 25;
@@ -7,10 +9,10 @@ public class AsignarVariables {
         boolean isCourseActive = true;
 
         // imprimir los valores de las variables
-            System.out.println("Course Name: " + courseName);
-            System.out.println("Number of students: " + numStudentCount);
-            System.out.println("Average grade: " + numAverageGrado);
-            System.out.println("Course active: " + isCourseActive);
+        System.out.println("Course Name: " + courseName);
+        System.out.println("Number of students: " + numStudentCount);
+        System.out.println("Average grade: " + numAverageGrado);
+        System.out.println("Course active: " + isCourseActive);
 
     }
 }

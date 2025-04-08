@@ -1,5 +1,6 @@
 
 public class AsignarVariables2 {
+
     public static void main(String[] args) {
         // Declaracion y asignacion de variables
         byte numEdad = 20;
