@@ -1,6 +1,9 @@
+package unidad1;
+
 import java.util.Scanner;
 
 public class Ejercicio4AbonarImpuesto {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese su sueldo en dolares: ");
@@ -12,6 +15,6 @@ public class Ejercicio4AbonarImpuesto {
         } else {
             System.out.println("No debe abonar impuestos");
         }
-    scanner.close();
+        scanner.close();
     }
 }

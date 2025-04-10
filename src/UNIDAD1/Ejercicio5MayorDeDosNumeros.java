@@ -1,8 +1,11 @@
+package unidad1;
+
 import java.util.Scanner;
 
 public class Ejercicio5MayorDeDosNumeros {
+
     public static void main(String[] args) {
-     Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese el primer número: ");
         float numero1 = scanner.nextFloat();
         System.out.println("Ingrese el segundo número: ");
@@ -16,6 +19,6 @@ public class Ejercicio5MayorDeDosNumeros {
         } else {
             System.out.println("Los números son iguales");
         }
-    scanner.close();
+        scanner.close();
     }
 }

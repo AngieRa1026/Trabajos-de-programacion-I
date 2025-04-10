@@ -1,6 +1,9 @@
+package unidad1;
+
 import java.util.Scanner;
 
 public class Ejercicio9PromedioNotas {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese la nota 1: ");
@@ -17,11 +20,11 @@ public class Ejercicio9PromedioNotas {
             System.out.println("Promocionado");
         } else if (promedio >= 4 && promedio < 7) {
             System.out.println("Regular");
-        } if (promedio < 4) {
-            System.out.println("Reprobado");
-        }    else {
         }
-    scanner.close();
+        if (promedio < 4) {
+            System.out.println("Reprobado");
+        } else {
+        }
+        scanner.close();
     }
 }
-

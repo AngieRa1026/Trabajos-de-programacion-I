@@ -1,7 +1,9 @@
+package unidad1;
 
 import java.util.Scanner;
 
 public class FactorialDeUnNumero {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese un número: ");
@@ -14,6 +16,5 @@ public class FactorialDeUnNumero {
         }
         System.out.println("El factorial de " + n + " es " + factorial);
         scanner.close();
-        }
     }
-
+}

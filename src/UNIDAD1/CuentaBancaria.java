@@ -1,4 +1,7 @@
+package unidad1;
+
 public class CuentaBancaria {
+
     //definir constantes utilizando static final para definirla//
     private static final int SALDO_INICIAL = 1000;
     private static final int RETIRO_SEMANAL = 200;

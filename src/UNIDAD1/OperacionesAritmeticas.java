@@ -1,7 +1,10 @@
+package unidad1;
+
 import java.util.Scanner;
 
 public class OperacionesAritmeticas {
-     public static void main(String[] args) {
+
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ingrese el primer número: ");
         int numero1 = scanner.nextInt();

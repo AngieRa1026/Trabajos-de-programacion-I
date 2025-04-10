@@ -1,4 +1,7 @@
+package unidad1;
+
 public class TiendaRopa {
+
     public static void main(String[] args) {
         // Precios originales
         float numPrecioCamiseta = 25.0f;

@@ -1,6 +1,9 @@
+package unidad1;
+
 import java.util.Scanner;
 
 public class Ejercicio2PromedioNotas {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese la primera nota: ");
@@ -13,12 +16,11 @@ public class Ejercicio2PromedioNotas {
 
         float promedio = (nota1 + nota2 + nota3) / 3;
         if (promedio >= 7) {
-            System.out.println("El promedio de las notas es: " + promedio + " Promocionado ");       
+            System.out.println("El promedio de las notas es: " + promedio + " Promocionado ");
         } else {
             System.out.println("El promedio de las notas es: " + promedio + " Reprobado ");
         }
-    scanner.close();    
+        scanner.close();
     }
-    
-}
 
+}

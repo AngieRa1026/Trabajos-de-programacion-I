@@ -1,4 +1,7 @@
+package unidad1;
+
 public class Switch {
+
     public static void main(String[] args) {
         int dia = 3;
         switch (dia) {

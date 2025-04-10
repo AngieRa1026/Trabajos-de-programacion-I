@@ -1,7 +1,9 @@
+package unidad1;
 
 import java.util.Scanner;
 
 public class DeterminarElMayorDeTresNumeros {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese el primer número: ");

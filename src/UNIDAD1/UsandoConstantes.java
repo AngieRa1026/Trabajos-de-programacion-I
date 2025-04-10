@@ -1,4 +1,7 @@
+package unidad1;
+
 public class UsandoConstantes {
+
     private static final double RADIO = 5.0;
     private static final double PI = 3.14159;
 
@@ -7,4 +10,3 @@ public class UsandoConstantes {
         System.out.println("El área del círculo es: " + area);
     }
 }
-    

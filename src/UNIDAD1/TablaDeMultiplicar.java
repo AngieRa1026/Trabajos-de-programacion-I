@@ -1,7 +1,9 @@
+package unidad1;
 
 import java.util.Scanner;
 
 public class TablaDeMultiplicar {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese un número: ");
@@ -10,6 +12,6 @@ public class TablaDeMultiplicar {
             System.out.println(num + " x " + i + " = " + num * i);
         }
         scanner.close();
-        
+
     }
 }
